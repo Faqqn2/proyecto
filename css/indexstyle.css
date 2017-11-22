@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    margin: 0;
+    background-image: url(../imagenes/fondo.jpg);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3,{
+    font-family: 'Yantramanav', sans-serif;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.contenedor {
+    margin: auto;
+    width: 97%;
+}
+
+.header {
+    height: 70px;
+}
+
+.header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-bars {
+    margin: 5px;
+}
+
+.icon-bars {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    background: goldenrod;
+    color: white;
+    margin-right: auto;
+    cursor: pointer;
+    right: 100%;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menuLink {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background: goldenrod;
+    color: white;
+}
+.menuLink:hover {
+    background: white;
+    color: #00000F;
+}
+
+.nav {
+    position: absolute;
+    top: 70px;
+    left: -100%;
+    width: 100%;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.mostrar {
+    left: 0;
+}
+
+.banner {
+    margin-top: -70px;
+    position: relative;
+    z-index: -10000;
+    margin-bottom: 15px;
+}
+
+.banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%
+    translateX(-50%) translateY(-50%);
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.infoColumna {
+    background: #00000F;
+    color: white;
+    padding: 15px;
+}
+.bannerTitulo {
+  margin-top: 5%;
+}
+
+
+.footer {
+    padding: 10px;
+    text-align: center;
+}
+.footer [class^="icon-"] {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+@media(min-width:480px) {
+    .logo {
+        display: none;
+    }
+    .bannerTitulo {
+        font-size: 30px;
+    }
+    .info {
+        display: flex;
+        justify-content: space-between;
+    }
+    .infoColumna {
+        width: 32%;
+    }
+    .row {
+        z-index: -1000;
+    }
+}
+
+@media(min-width:768px) {
+    .logo {
+        display: none;
+    }
+    .bannerTitulo{
+        font-size: 50px;
+    }
+    .infoColumna{
+        width: 40%;
+    }
+}
+
+@media(min-width:1024px) {
+    .icon-bars {
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .menuLink {
+        background: none;
+        color: goldenrod;
+    }
+    .nav {
+        position: static;
+        width: auto;
+    }
+    .bannerTitulo{
+        font-size: 50px;
+    }
+    .infoColumna {
+        
+        margin: 5px;
+    }
+
+}
+.row {
+    text-align: center;
+    padding: 5px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.video {
+    width: 300px;
+    height: 300px;
+    left: 10px;
+}
+
+.infoColumna {
+    width: 0px;
+    height: 225px;
+}
+
+.infoColumna .infoImg {
+    width: 300px;
+    height: 200px;
+    margin: 0px auto;
+   
+}
+
+#columna1, #columna2, #columna3, #columna4, #columna5, #columna6  {
+    width: 300px;
+    height: 200px;
+}
+
+#main {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+    #columna1:hover {
+        width: 350px;
+        cursor: pointer;
+    }
+    #columna2:hover {
+        width: 350px;
+        cursor: pointer;
+    }
+    #columna3:hover {
+        width: 350px;
+        cursor: pointer;
+    }
+    #columna4:hover {
+        width: 350px;
+        cursor: pointer;
+    }
+    #columna5:hover {
+        width: 350px;
+        cursor: pointer;
+    }
+    #columna6:hover {
+        width: 350px;
+        cursor: pointer;
+    }
