@@ -110,6 +110,7 @@ img {
 .footer {
     padding: 10px;
     text-align: center;
+    bottom: 0;
 }
 .footer [class^="icon-"] {
     color: white;
@@ -215,6 +216,7 @@ img {
     #columna1:hover {
         width: 350px;
         cursor: pointer;
+        
     }
     #columna2:hover {
         width: 350px;

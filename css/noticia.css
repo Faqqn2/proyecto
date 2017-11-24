@@ -1,0 +1,29 @@
+h1 {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    bottom: 0;
+}
+
+
+@media all and (max-width:480px) {
+    #noticia1, #noticia2, #noticia3, #noticia4, #noticia5, #noticia6 {
+        width: 100%;
+        margin: auto
+    }
+
+}
